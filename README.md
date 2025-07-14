@@ -1,6 +1,6 @@
 # Edge-outlining-tool
 A tool for performing Fourier series fitting (in trigonometric form) to the boundaries of specific locations on a map
-
+这是一个给地图上特定地点描边和傅里叶拟合的小工具
 DrawTheEdge.py 使用说明
 功能简介
 自动提取图片中目标颜色区域，检测所有色块并描边。
@@ -36,3 +36,6 @@ pick_color_and_draw_edge('你的图片路径.png', order=80)
 图片无法读取：请检查图片路径是否正确。
 没有色块被检测到：请确保选取的颜色区域在图片中存在。
 依赖未安装：请先运行 pip install 安装依赖。
+
+这个整体基于我的高数作业，但实际用起来我觉得拟合这步好像没那么必要，所以又加了一个没有傅里叶的版本就是_withooutfourier的版本，还加上了染色
+后续可能会加上比例尺计算面积吧-20257.14
