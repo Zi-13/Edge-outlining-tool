@@ -187,6 +187,6 @@ def pick_color_and_draw_edge(image_path, order=80):
     plt.show()
 
 def main():
-    pick_color_and_draw_edge('c:\\Users\\Jason\\Desktop\\JustForTry.png',order=80) 
+    pick_color_and_draw_edge('你的图片路径',order=80)#默认傅里叶级数80级，基本能实现拟合 
 if __name__ == "__main__":
     main()
