@@ -196,6 +196,6 @@ def pick_color_and_draw_edge(image_path):
     plt.show()
 
 def main():
-    pick_color_and_draw_edge('c:\\Users\\Jason\\Desktop\\JustForTry.png') 
+    pick_color_and_draw_edge('你的图片路径') 
 if __name__ == "__main__":
     main()
