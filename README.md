@@ -46,7 +46,7 @@ pip install opencv-python numpy matplotlib
    Modify the image path in the `main()` function to your target image:
 
     ```python
-    pick_color_and_draw_edge('你的图片路径.png', order=80)
+    pick_color_and_draw_edge('你的图片路径.png/jpg/...', order=80)//order=80是默认傅里叶级数拟合到80级，这个会影响你对具体色块的拟合速度
     ```
 
 2. 运行脚本：  
